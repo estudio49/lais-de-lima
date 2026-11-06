@@ -39,7 +39,8 @@ window.CARDAPIO = {
       venda: "fatia",
       prontaEntrega: true,
       precoFatia: { min: 15, max: 25 },
-      descricao: "Fatia individual, de pronta entrega."
+      descricao: "Fatia individual, de pronta entrega.",
+      foto: "assets/img/fotos/slice-cake.webp", fotoAlt: "Fatia de bolo de chocolate com três camadas de massa e recheio de brigadeiro, num prato branco"
     },
     {
       id: "bolo",
@@ -73,13 +74,14 @@ window.CARDAPIO = {
   // Para mostrar a foto real de um sabor: foto: "assets/img/fotos/nome.webp", fotoAlt: "descrição da foto".
   sabores: [
     { id: "matilda", nome: "Torta Matilda", tipos: ["bolo"], precoKg: { min: 115, max: 115 }, descricao: "",
-      foto: "assets/img/fotos/torta-matilda.webp", fotoAlt: "Torta Matilda cortada, com camadas de bolo e recheio de chocolate e cobertura de chocolate" },
+      foto: "assets/img/fotos/torta-matilda.webp", fotoAlt: "Torta Matilda inteira, coberta com ganache de chocolate escorrendo pelas laterais, com bicos de brigadeiro na base" },
     { id: "doce-de-leite-nozes", nome: "Doce de Leite com Nozes", tipos: ["bolo"], precoKg: { min: 115, max: 115 }, descricao: "",
-      foto: "assets/img/fotos/doce-de-leite-nozes.webp", fotoAlt: "Bolo de doce de leite com nozes cortado, mostrando as camadas de bolo e doce de leite, com nozes por cima" },
+      foto: "assets/img/fotos/doce-de-leite-nozes.webp", fotoAlt: "Bolo de doce de leite com nozes: cobertura de creme claro, calda de doce de leite escorrendo, nozes e bicos de doce de leite por cima" },
     { id: "cha-da-tarde", nome: "Chá da Tarde", tipos: ["bolo"], precoKg: { min: 98, max: 98 },
       descricao: "Incrivelmente Leve e Saboroso. Massa pão de ló úmida e aerada. Recheio creme diplomata e geleia de frutas vermelhas. Cobertura Buttercream (Creme de manteiga)." },
     { id: "red-velvet", nome: "Red Velvet", tipos: ["bolo"], precoKg: { min: 115, max: 115 }, descricao: "" },
-    { id: "limao", nome: "Limão", tipos: ["torta"], precos: { inteira: 115, mini: 14 }, descricao: "" },
+    { id: "limao", nome: "Limão", tipos: ["torta"], precos: { inteira: 115, mini: 14 }, descricao: "",
+      foto: "assets/img/fotos/torta-de-limao.webp", fotoAlt: "Tortinha de limão com merengue maçaricado em cima, sobre um prato branco" },
     { id: "banoffe", nome: "Banoffe", tipos: ["torta"], precos: { inteira: 130, mini: 16 }, descricao: "" }
   ],
 

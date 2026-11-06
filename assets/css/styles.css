@@ -145,9 +145,9 @@ body.menu-aberto .topo{background:var(--creme)}
 .grade-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,250px),290px));justify-content:center;gap:44px 24px}
 .cprod{perspective:900px}
 .cprod__link{display:flex;flex-direction:column;gap:16px;text-decoration:none;color:inherit}
-.cprod__arte{--bg:var(--verde);--a:var(--creme);--b:var(--manteiga);--c:var(--azul);--d:var(--tinta);position:relative;aspect-ratio:4/5;display:grid;place-items:center;border-radius:8px;overflow:hidden;background:var(--bg);transform:rotateX(var(--rx,0deg)) rotateY(var(--ry,0deg));transition:transform .5s var(--mola);will-change:transform}
+.cprod__arte{--bg:var(--verde);--a:var(--creme);--b:var(--manteiga);--c:var(--azul);--d:var(--tinta);position:relative;aspect-ratio:1/1;display:grid;place-items:center;border-radius:8px;overflow:hidden;background:var(--bg);transform:rotateX(var(--rx,0deg)) rotateY(var(--ry,0deg));transition:transform .5s var(--mola);will-change:transform}
 .cprod__arte::before{content:"";position:absolute;inset:0;background-size:var(--tx,64px);opacity:.9}
-.cprod__arte svg{position:relative;width:82%;height:auto;transition:transform .9s var(--mola)}
+.cprod__arte svg{position:relative;height:86%;width:auto;transition:transform .9s var(--mola)}
 .cprod__arte img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
 .cprod:hover .cprod__arte svg{transform:rotate(7deg) scale(1.06)}
 .arte--matilda{--bg:var(--manteiga);--a:var(--creme);--b:var(--verde);--c:var(--azul)}

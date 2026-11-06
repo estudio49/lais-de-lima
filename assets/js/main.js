@@ -70,7 +70,7 @@
       const grade = $(`[data-grade="${t.id}"]`); if (!grade) return;
       const lista = D.sabores.filter((x) => x.tipos && x.tipos.includes(t.id));
       if (lista.length) lista.forEach((x) => cartao({ grade, id: x.id, nome: x.nome, cat: precoSabor(t, x), desc: x.descricao, foto: x.foto, fotoAlt: x.fotoAlt, tipo: t.id, sabor: x.id, pedir: 'Pedir este' }));
-      else { const v = valorTipo(t); cartao({ grade, id: t.id, nome: t.nome, cat: faixa(v.min, v.max, ` ${v.un}`), desc: t.descricao, tipo: t.id, pedir: 'Pedir fatias' }); }
+      else { const v = valorTipo(t); cartao({ grade, id: t.id, nome: t.nome, cat: faixa(v.min, v.max, ` ${v.un}`), desc: t.descricao, foto: t.foto, fotoAlt: t.fotoAlt, tipo: t.id, pedir: 'Pedir fatias' }); }
     });
 
     /* ---------- Tamanhos: toque na forma para "cortar" ---------- */
