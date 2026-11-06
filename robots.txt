@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://boloslais.com.br/sitemap.xml
